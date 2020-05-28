@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+}
+hr {
+  border: dotted #588da8 6px;
+
+  border-bottom: none;
+  width: 7%;
+}
+video {
+  padding: 25px;
+
+}
+
+.third-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+}
+.logo-ahdesign {
+  width: 220px;
+
+}
+.navbar {
+  padding: 0 0 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#navbarTogglerDemo01 {
+  text-align: left;
+}
+.colored-header {
+ color: #1b6ca8;
+
+  padding-top: 15px;
+}
+.container-fluid {
+  padding: 4% 15%;
+}
+/* Sections */
+.colored-section {
+  background-color: #142850;
+  color: #fff;
+}
+.colored-section2{
+  background-color: #035aa6;
+}
+.white-section {
+  background-color: #dae1e7;
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 2%;
+}
+
+.art-pic {
+  width: 620px;
+
+}
+.photography-pic{
+  width: 700px;
+
+
+}
+
+.logos {
+  width: 250px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.dropp :hover {
+  background-color: #035aa6;
+}
+/* Press */
+#Press .container-fluid {
+  padding: 3% 8% 3%;
+}
+
+/* Photography section */
+
+.skill-icons {
+  width: 80px;
+}
+
+@media (max-width: 1028px) {
+.photography-pic {
+width: 550px;
+
+
+}
+
+  .logos {
+    width: 8rem;
+    padding: 10px;
+  }
+
+  .third-heading {
+    font-size: 1.2em;
+  }
+  hr {
+    border: dotted #588da8 5px;
+    border-bottom: none;
+    width: 10%;
+  }
+  .art-pic {
+    width: 400px;
+
+  }
+  video {
+    width: 250px;
+    padding: 30px;
+  }
+
+}
